@@ -7,52 +7,52 @@
 //int main()
 //{
 //	printf("\a");
-//	printf("%c\n", '\x30'); // Ê®½øÖÆÎª48£¬ASCIIÖµ¶ÔÓ¦'0'£¬\xdd ±íÊ¾Á½¸öÊ®Áù½øÖÆÊı£¬
+//	printf("%c\n", '\x30'); // åè¿›åˆ¶ä¸º48ï¼ŒASCIIå€¼å¯¹åº”'0'ï¼Œ\xdd è¡¨ç¤ºä¸¤ä¸ªåå…­è¿›åˆ¶æ•°ï¼Œ
 //	printf("%d\n", strlen("abc")); // 3
 //	printf("%d\n", strlen("c:\test\328\test.c")); // 8
 //	return 0;
 //}
 
 
-//Ñ¡ÔñÓï¾ä
+//é€‰æ‹©è¯­å¥
 //int main()
 //{	
 //	int input = 0;
-//	printf("ÄãÒªºÃºÃÑ§Ï°Âğ£¿>\n");
-//	printf("Èç¹ûÊÇ¾Í°´(1/0)?\n");
+//	printf("ä½ è¦å¥½å¥½å­¦ä¹ å—ï¼Ÿ>\n");
+//	printf("å¦‚æœæ˜¯å°±æŒ‰(1/0)?\n");
 //	scanf("%d\n", &input);
 //	if (input == 1)
 //	{
-//		printf("»ñµÃºÃoffer\n");
+//		printf("è·å¾—å¥½offer\n");
 //	}
 //	else
 //	{
-//		printf("ÂôºìÊí\n");
+//		printf("å–çº¢è–¯\n");
 //	}
 //	return 0;
 //}
 
 
-//Ñ­»·
+//å¾ªç¯
 //int main()
 //{
 //	int line = 0;
 //	
 //	while (line < 3000)
 //	{
-//		printf("ÇÃ´úÂë:%d\n", line);
+//		printf("æ•²ä»£ç :%d\n", line);
 //		line++;
 //	}
 //	if (line == 3000)
 //	{
-//		printf("ºÃoffer\n");
+//		printf("å¥½offer\n");
 //	}
 //	return 0;
 //}
 
 
 
-//º¯Êı
+//å‡½æ•°
 //int Add(int x, int y)
 //{
 //	int z = 0;
@@ -65,13 +65,13 @@
 //	int num2 = 0;
 //	scanf("%d %d", &num1, &num2);
 //	//int sum = num1 + num2;
-//	//Ê¹ÓÃº¯ÊıµÄ·½·¨
+//	//ä½¿ç”¨å‡½æ•°çš„æ–¹æ³•
 //	int sum = Add(num1, num2);
 //	printf("%d\n", sum);
 //}
 
 
-//Êı×é
+//æ•°ç»„
 int main()
 {
 	int arr[5] = {1,2,3,4,5};
@@ -81,6 +81,6 @@ int main()
 		printf("%d ", arr[i]);
 		i++;
 	}
-	//char ch[3] = { 'a', 'b' }; //²»ÍêÈ«³õÊ¼»¯£¬Ê£ÓàµÄÄ¬ÈÏÎª0
+	//char ch[3] = { 'a', 'b' }; //ä¸å®Œå…¨åˆå§‹åŒ–ï¼Œå‰©ä½™çš„é»˜è®¤ä¸º0
 	return 0;
 }
