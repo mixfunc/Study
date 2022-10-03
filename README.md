@@ -1,3 +1,3 @@
-# study-c
+# study
 
 I study C.
